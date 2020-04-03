@@ -1,0 +1,591 @@
+<html>
+ <Head>
+  <script language="JavaScript">
+   var codice=5497
+   var movimento=10202
+   var indice=0
+   var caselledisponibili=["10202","10203","10204","10205","10206"]
+   document.addEventListener("keydown", keyDownTextField, false);
+	function keyDownTextField(w) {
+    var keyCode = w.keyCode;
+    if(keyCode==38) {
+     movimento=movimento-100
+     document.getElementById(movimento+100).innerHTML=""
+     document.getElementById(movimento).innerHTML="tu"
+	 if(movimento==10917){testochiave3.innerHTML="9"
+	 }
+	 else{if(movimento==10321){testochiave4.innerHTML="7"
+	 }}
+     }
+      ;
+    
+     if(keyCode==37) {
+     movimento=movimento-1
+     document.getElementById(movimento+1).innerHTML=""
+     document.getElementById(movimento).innerHTML="tu"
+	 if(movimento==11718){testochiave2.innerHTML="4"
+	 }}
+     ;
+   
+     if(keyCode==40){movimento=movimento+100
+      document.getElementById(movimento).innerHTML="tu"
+      document.getElementById(movimento-100).innerHTML=""
+	  if(movimento==11502)
+    {testochiave1.innerHTML="5"
+	 }
+	 else{
+	 if(movimento==11617){testochiave2.innerHTML="4"
+	 }}
+	}
+     
+     
+     
+     if(keyCode==39) {movimento=movimento+1
+       document.getElementById(movimento).innerHTML="tu"
+       document.getElementById(movimento-1).innerHTML=""
+	   if(movimento==11717){testochiave2.innerHTML="4"
+	 }}
+    }
+	function controllo(){if(text.value==codice)
+	alert("sei fuggito dal labirinto")
+	else{alert("codice errato, riprova")}}
+   
+  </script>
+ </Head>
+
+ <body BGCOLOR="#000000" >
+  
+  
+  
+  <table align=LEFT BORDER=1 BGCOLOR="#ffffff">
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10202" width="40"  HEIGHT="40" >tu</p></td>
+   <td><p id="10203" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10204" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10205" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10206" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10207" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10208" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10209" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10210" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10211" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10212" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10213" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10214" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10216" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10217" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10218" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40" HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="10221" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="10222" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10306" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10309" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10314" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10316" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10318" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10319" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="10321" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="10322" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10403" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10406" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10409" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10411" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10412" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10414" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10415" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10416" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10419" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10420" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10421" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10502" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10503" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10504" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10505" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10506" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10509" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10510" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10511" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10513" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10514" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10518" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10519" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10521" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10522" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10603" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10609" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10611" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10615" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10616" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10617" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10618" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10622" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10703" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10705" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10706" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10707" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10709" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10711" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10713" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10714" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10715" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10718" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10719" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10721" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10722" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10802" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10803" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10804" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10805" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10807" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10809" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10811" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10812" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10813" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="10816" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="10817" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10819" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10821" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10902" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10905" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10907" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10909" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10913" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10914" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="10916" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="10917" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10919" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10921" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="10922" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11002" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11003" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11005" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11006" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11007" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11009" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11010" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11011" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11014" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11015" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11017" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11022" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11103" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11109" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11111" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11112" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11113" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11115" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11116" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11117" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11118" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11119" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11121" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11122" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11202" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11203" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11204" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11208" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11209" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11210" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11213" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11218" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11220" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11221" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11302" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11304" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11305" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11306" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11308" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11310" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11311" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11313" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11315" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11316" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11318" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11320" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11322" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11402" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11406" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11408" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11411" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11413" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11414" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11416" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11418" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11419" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11420" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11421" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11422" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="11502" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="11503" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11505" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11506" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11508" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11509" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11511" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11514" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11515" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11516" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11517" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11522" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="11602" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="11603" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11605" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11609" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11611" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11613" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11615" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="11617" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="11618" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11620" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11621" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11622" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11705" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11706" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11707" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11708" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11709" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11712" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11713" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11714" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11715" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11716" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="11717" width="40"  HEIGHT="40" ></p></td>
+   <td BGCOLOR="#ff0000"><p id="11718" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11719" width="40"  HEIGHT="40" ></p></td>
+   <td><p id="11720" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+   <tr>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   <td><p><img src="img/muro.png" width="40"  HEIGHT="40" ></p></td>
+   </tr>
+   
+  </table>
+  <table BORDER=1 BGCOLOR="#ffffff">
+   <tr>
+    <td>
+     <p>CHIAVE N.1</p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p id="testochiave1"></p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>CHIAVE N.2</p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p id="testochiave2"></p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>CHIAVE N.3</p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p id="testochiave3"></p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>CHIAVE N.4</p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p id="testochiave4"></p>
+    </td>
+   </tr>
+   
+   <tr>
+    <td>
+     <input type="text" value="inserisci codice" id="text"></input>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <input type="button" value="controlla codice" onclick="controllo()"></input>
+    </td>
+   </tr>
+  </table >
+  
+  </body>
+
+
+
+
+</html>
